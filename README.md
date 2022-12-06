@@ -1,5 +1,5 @@
-# Wifi-Phishing-
-
+# Wifi-Phishing
+I. Cài đặt và cấu hình isc-dhcp-server 
 
 1. Khởi động terminal và gõ lệnh sau.
   apt-get update

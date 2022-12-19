@@ -1,7 +1,7 @@
 # Wifi-Phishing
 
-
-SET PASSWORD FOR 'root'@localhost = PASSWORD("myReallyStrongPwd");
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mariadb-php-lamp-stack-on-debian-11
+SET PASSWORD FOR 'root'@localhost = PASSWORD("myPass170901");
 
 
 <?php

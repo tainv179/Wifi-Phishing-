@@ -26,7 +26,17 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 ?>
     
+=============================================
+/etc/apache2/mods-available/userdir.conf
 
-
-
+<Limit GET POST OPTIONS>
+      Require all granted
+      Order allow,deny
+      Allow from all
+</Limit>
+<LimitExcept GET POST OPTIONS>
+      Require all denied
+      Order deny , allow
+      Deny from all
+</LimitExcept>
 https://github.com/wifiphisher/wifiphisher
